@@ -9,19 +9,19 @@ jQuery-GridWriter
       - 0 -> 33.3% width
       - 1 -> 66.6% width
       - 2 -> 99.9% width
-### delGrid(GridId)
+### - delGrid(GridId)
    - GridId: *ID for Grid-Container*
-### setGridWidth(GridId)
+### - setGridWidth(GridId)
    - GridId: *ID for Grid-Container*
-### addBlock(GridId, BlockId) 
+### - addBlock(GridId, BlockId) 
    - GridId: *ID of created Grid-Container*
    - BlockId: *ID for Grid-Block (must be unique)*
-### delBlock(BlockId)
+### - delBlock(BlockId)
    - BlockId: *ID for Grid-Block*
-### addBlockContent(BlockId, Content)
+### - addBlockContent(BlockId, Content)
    - BlockId: *ID for Grid-Block*
    - Content: jQuery-Object or HTML
-### delBlockContent(BlockId)
+### - delBlockContent(BlockId)
    - BlockId: *ID for Grid-Block*
    
    
