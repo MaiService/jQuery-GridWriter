@@ -10,12 +10,14 @@ Functions:
   - CombineGrids:
     - 0 - 33.3% width
     - 1 - 66.6% width
-    - 3 - 99.9% width
+    - 2 - 99.9% width
 
 - delGrid(GridId)
 - setGridWidth(GridId)
+
 - addBlock(GridId, BlockId) 
 - delBlock(BlockId)
+
 - addBlockContent(BlockId, Content)
 - delBlockContent(BlockId)
  
