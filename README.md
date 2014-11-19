@@ -1,47 +1,34 @@
-jQuery-GridWriter
-=================
-  Plugin for creating jQuery-Mobile-Grids.
+# _jQuery-GridWriter_
 
-## Available Functions
+_Description: Plugin for creating jQuery-Mobile-Grids. Easy way to create grids with a dynamic width._
 
-### - addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
-   - GridId: *ID for Grid-Container (must be unique)*
-   - CombineGrids: 0-2
-      - 0 -> 33.3% width
-      - 1 -> 66.6% width
-      - 2 -> 99.9% width
-   - BlockCount: 1-3 (define how many Blocks are added to Grid)
-      
-### - delGrid(GridId)
-   - GridId: *ID for Grid-Container*
-   
-### - setGridWidth(GridId)
-   - GridId: *ID for Grid-Container*
-   
-### - addBlock(GridId, BlockId) 
-   - GridId: *ID of created Grid-Container*
-   - BlockId: *ID for Grid-Block (must be unique)*
-   
-### - delBlock(BlockId)
-   - BlockId: *ID for Grid-Block*
-   
-### - addBlockContent(BlockId, Content)
-   - BlockId: *ID for Grid-Block*
-   - Content: jQuery-Object or HTML
-   
-### - delBlockContent(BlockId)
-   - BlockId: *ID for Grid-Block*
-   
-   
-*Each function fires an event on target element*
-*Each function-event provides a data object {id: targetId}*
+## Project Setup
 
-*If window size is less then the value set in option MinDocumentWidth all grids become full sized*
-*this behavior can be turned of by setting option "CheckDocumentWidth" to false*
+1. _Include jQuery-Mobile files_
+2. _Include jQuery-GridWriter.js file_
 
- 
-Basic usage
-===========
+## Functions
+
+> Grid
+> - addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
+> - delGrid(GridId)
+> - setGridWidth(GridId)
+> Block
+> - addBlock(GridId, BlockId) 
+> - delBlock(BlockId) 
+> Blok-Content
+> - addBlockContent(BlockId, Content)
+> - delBlockContent(BlockId)
+
+## Further Information
+
+* Each function fires an event on target element
+* Each function-event provides a data object {id: targetId}
+
+* If window size is less then the value set in option MinDocumentWidth all grids become full sized
+* This behavior can be turned of by setting option "CheckDocumentWidth" to false
+
+## Usage
 
     var grid = $("#grid").gridwriter();	
     
