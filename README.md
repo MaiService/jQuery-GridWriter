@@ -6,15 +6,16 @@ Easy way to create grids with a dynamic width.
 
 Functions:
 ==========
-- addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
-- delGrid(GridId)
-- setGridWidth(GridId)
-- addBlock(GridId, BlockId) 
-- delBlock(BlockId)
-- addBlockContent(BlockId, Content)
-- delBlockContent(BlockId)
+addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
+delGrid(GridId)
+setGridWidth(GridId)
+addBlock(GridId, BlockId) 
+delBlock(BlockId)
+addBlockContent(BlockId, Content)
+delBlockContent(BlockId)
  
  Function -> addGrid -> CombineGrids:
+ 
  0 - 33.3% width
  1 - 66.6% width
  3 - 99.9% width
