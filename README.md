@@ -9,26 +9,27 @@ _Description: Plugin for creating jQuery-Mobile-Grids. Easy way to create grids 
 
 ## Functions
 
-> Grid
+> ### Grid
 > - addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
 > - delGrid(GridId)
 > - setGridWidth(GridId)
 
-> Block
+> ### Block
 > - addBlock(GridId, BlockId) 
 > - delBlock(BlockId) 
 
-> Blok-Content
+> ### Block-Content
 > - addBlockContent(BlockId, Content)
 > - delBlockContent(BlockId)
 
 ## Further Information
+> ### Events
+> - Each function fires an event on target element
+> - Each function-event provides a data object: *_{id: targetId}_*
 
-* Each function fires an event on target element
-* Each function-event provides a data object {id: targetId}
-
-* If window size is less then the value set in option MinDocumentWidth all grids become full sized
-* This behavior can be turned of by setting option "CheckDocumentWidth" to false
+> ### Window-Size
+> - If window size  < options value: "MinDocumentWidth" all grids become full sized
+> - Window-Size check can be turned of by setting option value: "CheckDocumentWidth" to *_false_*
 
 ## Usage
 
