@@ -2,6 +2,7 @@ jQuery-GridWriter
 =================
 
 Plugin for creating jQuery-Mobile-Grids.
+
 Easy way to create grids with a dynamic width.
 
 Functions:
