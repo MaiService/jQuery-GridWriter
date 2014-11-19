@@ -3,24 +3,31 @@ jQuery-GridWriter
   Plugin for creating jQuery-Mobile-Grids.
 
 ## Available Functions
+
 ### - addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
    - GridId: *ID for Grid-Container (must be unique)*
    - CombineGrids:
       - 0 -> 33.3% width
       - 1 -> 66.6% width
       - 2 -> 99.9% width
+      
 ### - delGrid(GridId)
    - GridId: *ID for Grid-Container*
+   
 ### - setGridWidth(GridId)
    - GridId: *ID for Grid-Container*
+   
 ### - addBlock(GridId, BlockId) 
    - GridId: *ID of created Grid-Container*
    - BlockId: *ID for Grid-Block (must be unique)*
+   
 ### - delBlock(BlockId)
    - BlockId: *ID for Grid-Block*
+   
 ### - addBlockContent(BlockId, Content)
    - BlockId: *ID for Grid-Block*
    - Content: jQuery-Object or HTML
+   
 ### - delBlockContent(BlockId)
    - BlockId: *ID for Grid-Block*
    
