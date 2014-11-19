@@ -30,7 +30,6 @@ Functions:
   if window size is less then the value set in option MinDocumentWidth all grids become full sized
   this behavior can be turned of by setting option "CheckDocumentWidth" to false
 
-
 Basic usage
 ===========
 
