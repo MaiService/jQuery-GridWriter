@@ -15,11 +15,13 @@ Functions:
 - addBlockContent(BlockId, Content)
 - delBlockContent(BlockId)
  
+
  
 Function -> addGrid -> CombineGrids:
  - 0 - 33.3% width
  - 1 - 66.6% width
  - 2 - 99.9% width
+
 
 
 Function -> addGrid -> BarCount:
@@ -30,7 +32,6 @@ Each function fires an event on target element.
 Each function-event provides a data object {id: targetId}.
  
 !!!IMORTANT!!!
---------------
 if window size is less then the value set in option MinDocumentWidth all grids become full sized
 this behavior can be turned of by setting option "CheckDocumentWidth" to false
 
