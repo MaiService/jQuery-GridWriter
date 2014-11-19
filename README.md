@@ -6,8 +6,7 @@ Plugin for creating jQuery-Mobile-Grids
 
 Basic usage
 ===========
-$( document ).ready(function() {
-	  
+
 	  var grid = $("#grid").gridwriter();	
 
 	  grid.bind("addGrid", function(event, data) {
@@ -35,4 +34,3 @@ $( document ).ready(function() {
 	  grid.data("ui-gridwriter").addBlock("test3", "testblock7");
 	  grid.data("ui-gridwriter").addBlockContent("testblock6","test:0-2");
 	  grid.data("ui-gridwriter").addBlockContent("testblock7","test:0-2");
-});
