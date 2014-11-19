@@ -1,18 +1,18 @@
 jQuery-GridWriter
 =================
 
-Plugin for creating jQuery-Mobile-Grids
-
-easy way to create grids with a dynamic width
+Plugin for creating jQuery-Mobile-Grids.
+Easy way to create grids with a dynamic width.
 
 Functions:
- - addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
- - delGrid(GridId)
- - setGridWidth(GridId)
- - addBlock(GridId, BlockId) 
- - delBlock(BlockId)
- - addBlockContent(BlockId, Content)
- - delBlockContent(BlockId)
+==========
+- addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
+- delGrid(GridId)
+- setGridWidth(GridId)
+- addBlock(GridId, BlockId) 
+- delBlock(BlockId)
+- addBlockContent(BlockId, Content)
+- delBlockContent(BlockId)
  
  Function -> addGrid -> CombineGrids:
  0 - 33.3% width
