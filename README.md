@@ -13,9 +13,11 @@ _Description: Plugin for creating jQuery-Mobile-Grids. Easy way to create grids 
 > - addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
 > - delGrid(GridId)
 > - setGridWidth(GridId)
+
 > Block
 > - addBlock(GridId, BlockId) 
 > - delBlock(BlockId) 
+
 > Blok-Content
 > - addBlockContent(BlockId, Content)
 > - delBlockContent(BlockId)
