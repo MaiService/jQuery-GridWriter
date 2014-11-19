@@ -5,7 +5,6 @@ Plugin for creating jQuery-Mobile-Grids.
 Easy way to create grids with a dynamic width.
 
 Functions:
-==========
  - addGrid(GridId, CombineGrids[0-2], BlockCount[1-3])
   - CombineGrids:
     - 0 - 33.3% width
