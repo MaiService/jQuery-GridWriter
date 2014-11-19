@@ -18,9 +18,11 @@ Function -> addGrid -> CombineGrids:
  - 1 - 66.6% width
  - 2 - 99.9% width
 
+
 Function -> addGrid -> BarCount:
  - define how many Blocks are added to Grid 
  
+
 Each function fires an event on target element
 Each function-event provides a data object {id: targetId}
  
